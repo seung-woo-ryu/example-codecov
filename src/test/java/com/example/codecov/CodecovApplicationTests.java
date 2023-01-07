@@ -10,6 +10,7 @@ class CodecovApplicationTests {
 	@Test
 	void contextLoads() {
 		System.out.println("test!");
+		System.out.println("test!");
 		Assertions.assertThat(1L).isEqualTo(1L);
 	}
 
