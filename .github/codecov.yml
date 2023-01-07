@@ -2,13 +2,9 @@ name: Code Coverage sample
 
 on:
   push:
-    branches:
-      - 'dev'
-      - 'main'
+    branches: [ "main", "dev" ]
   pull_request:
-    branches:
-      - 'dev'
-      - 'main'
+    branches: [ "main", "dev" ]
 
 jobs:
   code-coverage:
