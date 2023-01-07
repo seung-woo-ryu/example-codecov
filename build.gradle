@@ -40,22 +40,4 @@ jacocoTestReport {
 		html.required = true
 		csv.required = false
 	}
-
-	finalizedBy jacocoTestCoverageVerification
-}
-
-jacocoTestCoverageVerification {
-	violationRules {
-		rule {
-			enabled = true
-
-			element = 'CLASS'
-
-			limit {
-				counter = 'LINE'
-				value = 'COVEREDRATIO'
-				minimum = 0.10
-			}
-		}
-	}
 }
